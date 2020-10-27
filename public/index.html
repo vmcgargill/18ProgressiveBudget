@@ -10,35 +10,58 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
 
-  <title>Budget Tracker</title>
+  <title>Budget Tracker 3000</title>
 </head>
 <body>
-  <div class="wrapper">
-    <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
-    </div>
+  <h1>Budget Tracker 3000</h1>
 
-    <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
-      <p class="error"></p>
+  <div class="container">
+    <div class="wrapper">
+      <div class="total">
+        <div class="total">Your total is: $<span id="total">0</span></div>
+      </div>
+  
+      <div class="form">
+        <input type="text" id="t-name" placeholder="Name of transaction" />
+        <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
+        <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
+        <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+        <p class="error"></p>
+      </div>
+  
+      <div class="transactions">
+        <table>
+          <thead>
+            <th>Transaction</th>
+            <th>Amount</th>
+          </thead>
+          <tbody id="tbody">
+            
+          </tbody>
+        </table>
+      </div>
+      
+      <canvas id="myChart"></canvas>
     </div>
+  </div>
+  
 
-    <div class="transactions">
-      <table>
-        <thead>
-          <th>Transaction</th>
-          <th>Amount</th>
-        </thead>
-        <tbody id="tbody">
-          
-        </tbody>
-      </table>
-    </div>
-    
-    <canvas id="myChart"></canvas>
+  <div class="footer">
+    <p>
+      <a class="copyright">&copy; 2020 Vincent McGargill</a> 
+    </p>
+    <p>
+    Email: <a class="email" id="email" href="mailto:vincentmcgargill@gmail.com">vincentmcgargill@gmail.com</a>
+    </p>
+    <p>
+      <a href="https://github.com/vmcgargill" class="github" target="_blank">GitHub</a>
+    </p>
+    <p>
+      <a href="https://www.linkedin.com/in/vincent-mcgargill-b6244660/" class="linkedin" target="_blank">LinkedIn</a>
+    </p>
+    <p>
+      <a href="https://vmcgargill.github.io/portfolio/" class="portfolio" target="_blank">GitHub Portfolio</a>
+    </p>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>

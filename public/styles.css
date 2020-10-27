@@ -1,12 +1,25 @@
 body {
   font-size: 120%;
   font-family: Arial;
+  background-color: silver;
 }
 
 button, input {
   font-size: 100%;
   font-family: Arial;
 }
+
+.container {
+  border: 6px;
+  border-width: 100%;
+  border-color: rgb(30, 30, 97); 
+  border-style: solid;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0 0 15px 2px;
+  background-color: white;
+  margin: 2%;
+}
+
 
 table {
   width: 100%;
@@ -48,4 +61,18 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.footer, h1 {
+  background-color: rgb(30, 30, 97);
+  text-align: center;
+  padding: 5px;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0 0 15px 4px black;
+  margin: 2%;
+  color: white;
+}
+
+.footer p, a, a:hover {
+  color: white;
 }
