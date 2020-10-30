@@ -37,9 +37,7 @@ function checkDB() {
           Accept: "application/json, text/plain, */*",
           "Content-Type": "application/json"
         }
-      })
-      .then(response => response.json())
-      .then(() => {
+      }).then(response => response.json()).then(() => {
         db.transaction(["pending"], "readwrite").objectStore("pending").clear();
       });
     }
