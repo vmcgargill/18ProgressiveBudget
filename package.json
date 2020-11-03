@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/vmcgargill/19UserDirectory"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://vmcgargill.github.io/19UserDirectory/"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://vmcgargill.github.io/19UserDirectory/",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
