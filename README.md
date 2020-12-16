@@ -1,4 +1,4 @@
-# 18ProgressiveBudget
+# ProgressiveBudget
 [![License: NPM](https://img.shields.io/badge/License-NPM%20Package-green.svg)](https://www.npmjs.com/)
 
 ![Budget Tracker 3000](/budgettracker3000.gif)
